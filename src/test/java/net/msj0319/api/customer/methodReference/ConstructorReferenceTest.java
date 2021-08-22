@@ -4,12 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import java.util.function.Function;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class ConstructorReferenceTest {
 
     @Test
     void main() {
+        //Function<Runnable, Thread> threadGenerator = t -> new Thread(t);
         Function<Runnable, Thread> threadGenerator = Thread::new;
         Runnable t1 = () -> System.out.println("T1 executed");
         Runnable t2 = () -> System.out.println("T2 executed");

@@ -1,13 +1,10 @@
 package net.msj0319.api.customer.lambda;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MyConsumerTest {
 
